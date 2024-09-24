@@ -1,0 +1,52 @@
+CRITICAL - 2024-09-24 00:32:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/add_task.php"
+[Method: GET, Route: tasks/add]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/add_task.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/add_task', [], true)
+ 3 APPPATH/Controllers/TaskController.php(20): view('dashboard/add_task')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->addTask()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-24 00:33:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/add_task.php"
+[Method: GET, Route: tasks/add]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/add_task.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/add_task', [], true)
+ 3 APPPATH/Controllers/TaskController.php(20): view('dashboard/add_task')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->addTask()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-24 00:33:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/add_task.php"
+[Method: GET, Route: tasks/add]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/add_task.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/add_task', [], true)
+ 3 APPPATH/Controllers/TaskController.php(20): view('dashboard/add_task')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->addTask()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-24 00:49:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/edit_task.php"
+[Method: GET, Route: Project/edit/1]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/edit_task.php')
+ 2 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/edit_task', [], true)
+ 3 APPPATH/Controllers/TaskController.php(40): view('dashboard/edit_task', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->editTask('1')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
