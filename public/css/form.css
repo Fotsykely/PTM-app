@@ -1,0 +1,58 @@
+.container {
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group label {
+    width: 30%;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 65%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-group input[type="date"] {
+    width: 65%;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn button:hover {
+    background-color: #218838;
+}
