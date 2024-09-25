@@ -7,6 +7,31 @@
     background-color: #f9f9f9;
 }
 
+.containerForm {
+    display: none;
+    position: fixed;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+  }
+
 .container h1 {
     text-align: center;
 }
@@ -40,11 +65,11 @@
     width: 65%;
 }
 
-.submit-btn {
+.btn{
     text-align: center;
 }
 
-.submit-btn button {
+.submit-btn{
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
@@ -53,6 +78,19 @@
     cursor: pointer;
 }
 
+.cl-btn{
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .submit-btn button:hover {
     background-color: #218838;
+}
+
+.cl-btn button:hover {
+    background-color: rgb(155, 15, 15);
 }

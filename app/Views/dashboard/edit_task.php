@@ -25,9 +25,8 @@
                 <label for="deadline">Deadline:</label>
                 <input type="date" name="deadline" id="deadline" value="<?= $task['deadline'] ?>" required>
             </div>
-
-            <div class="submit-btn">
-                <button type="submit">Update Project</button>
+            <div class="btn">
+                <button type="submit" class="submit-btn">Update Project</button>
             </div>
         </form>
     </div>
