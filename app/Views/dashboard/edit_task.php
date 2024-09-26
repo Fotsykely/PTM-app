@@ -13,7 +13,7 @@
         <form action="<?= site_url('Project/updateTask/'.$project['id']) ?>" method="post">
         <div class="form-group">
                 <label for="project_name">Project Name:</label>
-                <input type="text" name="project_name" id="task_name" value="<?= $project['project_name'] ?>" required>
+                <input type="text" name="project_name" id="project_name" value="<?= $project['project_name'] ?>" required>
             </div>
 
             <div class="form-group">
