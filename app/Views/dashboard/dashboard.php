@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="<?= base_url('css/form.css') ?>">
 </head>
 <body>
-    <div class="container" style="min-height: 50vh;">
+    <div class="container" style="min-height: 60vh;">
         <h1>User Dashboard</h1>
 
         <!-- Add Task and Add Project buttons -->
+        <!-- <a href="<?= site_url('/Project/add') ?>" class="add-task-button float-right">Add Project</a> -->
 
-        <button id="addProject" class="float-right">Add Project</button>
-        
+        <button id="addProject" class="add-task-button float-right">Add Project</button>
         <div id="backdrop" class="backdrop"></div>
 
         <div id="addForm" class="containerForm">
@@ -41,7 +41,6 @@
         </div>
 
         <!-- Task Table -->
-        
         <table>
             <tr>
                 <th>Task Name</th>
@@ -55,7 +54,7 @@
                 <td><?= esc($task['description']) ?></td>
                 <td><?= esc($task['deadline']) ?></td>
                 <td>
-                    <a id="Edit" href="<?= site_url('Project/edit/'.$task['id']) ?>">Edit</a>
+                    <a href="<?= site_url('Project/edit/'.$task['id']) ?>">Edit</a>
                     <a href="<?= site_url('Project/delete/'.$task['id']) ?>" class="del-btn" onclick="return confirm('Are you sure?')">Delete</a>
                 </td>
             </tr>
@@ -63,9 +62,8 @@
         </table>
     </div>
 
-<script src="<?= base_url("scripts/project_create.js") ?>"></script>
+    <script src="<?= base_url("scripts/project_create.js") ?>"></script>
 <script src="<?= base_url("scripts/add_task.js") ?>"></script>
-
 </body>
 </html>
  

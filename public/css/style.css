@@ -68,11 +68,11 @@ th {
 
 .add-task-button {
     float: right;
-    background-color: #f0ad4e;
+    background-color: #1545f0;
 }
 
 .add-task-button:hover {
-    background-color: #ec971f;
+    background-color: #456bf4;
 }
 
 .alert {

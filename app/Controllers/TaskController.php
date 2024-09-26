@@ -15,6 +15,11 @@ class TaskController extends Controller
         return view('dashboard/dashboard', $data); // Load the dashboard view
     }
 
+    public function addTask()
+    {
+        return view('dashboard/add_Project'); // Load the add task form view
+    }
+
     public function saveTask()
     {
         $taskModel = new TaskModel();
@@ -24,7 +29,7 @@ class TaskController extends Controller
             'deadline' => $this->request->getPost('deadline'),
         ]);
 
-        return redirect()->to('/Project'); // Redirect to the task list (dashboard)
+        return redirect()->to('/'); // Redirect to the task list (dashboard)
     }
 
     public function editTask($id)
@@ -44,7 +49,7 @@ class TaskController extends Controller
             'deadline' => $this->request->getPost('deadline'),
         ]);
 
-        return redirect()->to('/Project');
+        return redirect()->to('/');
     }
 
     public function deleteTask($id)
@@ -52,6 +57,6 @@ class TaskController extends Controller
         $taskModel = new TaskModel();
         $taskModel->delete($id);
 
-        return redirect()->to('/Project');
+        return redirect()->to('/');
     }
 }
