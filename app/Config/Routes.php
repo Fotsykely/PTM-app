@@ -5,8 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('/Project', 'TaskController::index');
+$routes->get('/', 'TaskController::index');
 $routes->get('/Project/add', 'TaskController::addTask');
 $routes->post('/Project/save', 'TaskController::saveTask');
 $routes->get('/Project/edit/(:num)', 'TaskController::editTask/$1');

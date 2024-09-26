@@ -15,11 +15,6 @@ class TaskController extends Controller
         return view('dashboard/dashboard', $data); // Load the dashboard view
     }
 
-    public function addTask()
-    {
-        return view('dashboard/add_Project'); // Load the add task form view
-    }
-
     public function saveTask()
     {
         $taskModel = new TaskModel();
