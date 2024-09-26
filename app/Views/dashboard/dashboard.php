@@ -20,8 +20,8 @@
         <div id="addForm" class="containerForm">
             <form action="<?= site_url('Project/save') ?>" method="post">
                 <div class="form-group">
-                    <label for="task_name">Project Name:</label>
-                    <input type="text" name="task_name" id="task_name" required>
+                    <label for="project_name">Project Name:</label>
+                    <input type="text" name="project_name" id="project_name" required>
                 </div>
 
                 <div class="form-group">
@@ -44,18 +44,19 @@
         
         <table>
             <tr>
-                <th>Task Name</th>
+                <th>Project Name</th>
                 <th>Description</th>
                 <th>Deadline</th>
                 <th>Actions</th>
             </tr>
-            <?php foreach ($tasks as $task): ?>
+            <?php foreach ($projects as $task): ?>
             <tr>
-                <td><?= esc($task['task_name']) ?></td>
+                <td><?= esc($task['project_name']) ?></td>
                 <td><?= esc($task['description']) ?></td>
                 <td><?= esc($task['deadline']) ?></td>
                 <td>
                     <a id="Edit" href="<?= site_url('Project/edit/'.$task['id']) ?>">Edit</a>
+                    <a href="<?= site_url('Project/view/') ?>" class="cl-btn">View</a>
                     <a href="<?= site_url('Project/delete/'.$task['id']) ?>" class="del-btn" onclick="return confirm('Are you sure?')">Delete</a>
                 </td>
             </tr>

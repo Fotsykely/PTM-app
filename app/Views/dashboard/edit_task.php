@@ -9,21 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>Edit Task</h1>
-        <form action="<?= site_url('Project/updateTask/'.$task['id']) ?>" method="post">
+        <h1>Edit Project</h1>
+        <form action="<?= site_url('Project/updateTask/'.$project['id']) ?>" method="post">
         <div class="form-group">
-                <label for="task_name">Project Name:</label>
-                <input type="text" name="task_name" id="task_name" value="<?= $task['task_name'] ?>" required>
+                <label for="project_name">Project Name:</label>
+                <input type="text" name="project_name" id="task_name" value="<?= $project['project_name'] ?>" required>
             </div>
 
             <div class="form-group">
                 <label for="description">Description:</label>
-                <input name="description" id="description" value="<?= $task['description'] ?>" required></textarea>
+                <input name="description" id="description" value="<?= $project['description'] ?>" required></textarea>
             </div>
 
             <div class="form-group">
                 <label for="deadline">Deadline:</label>
-                <input type="date" name="deadline" id="deadline" value="<?= $task['deadline'] ?>" required>
+                <input type="date" name="deadline" id="deadline" value="<?= $project['deadline'] ?>" required>
             </div>
             <div class="btn">
                 <button type="submit" class="submit-btn">Update Project</button>
