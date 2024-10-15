@@ -21,7 +21,7 @@ h1 {
     color: #333;
 }
 
-button, a {
+button, a,.editBtn {
     background-color: #5cb85c;
     color: white;
     padding: 10px 20px;
@@ -62,9 +62,10 @@ th {
     background-color: #0275d8;
 }
 
+/* 
 .float-right:hover {
     background-color: #025aa5;
-}
+} */
 
 .add-task-button {
     float: right;
@@ -84,24 +85,16 @@ th {
 
 .alert.success {background-color: #4CAF50;}
 .alert.info {background-color: #2196F3;}
-.alert.warning {background-color: #ff9800;}
+.alert.warning {background-color: #ff4d00;}
 
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.closebtn:hover {
-    color: black;
-}
 
 .del-btn 
 {
     background-color: red;
+}
+
+.del-btn:hover
+{
+    background-color: rgb(200, 54, 54);  
+    transition: 0.5s;
 }

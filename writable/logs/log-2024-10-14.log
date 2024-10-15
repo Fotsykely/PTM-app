@@ -1,0 +1,45 @@
+CRITICAL - 2024-10-14 17:56:56 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-10-14 17:57:00 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-10-14 17:57:00 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')

@@ -1,0 +1,51 @@
+ERROR - 2024-09-30 09:22:22 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'Ptm_db', 3306, '', 0)
+#1 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/andorazafy/Documents/MVC/PTM-app/app/Controllers/TaskController.php(13): CodeIgniter\BaseModel->findAll()
+#7 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\TaskController->index()
+#8 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#9 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /Users/andorazafy/Documents/MVC/PTM-app/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/andoraza...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 /Users/andorazafy/Documents/MVC/PTM-app/app/Controllers/TaskController.php(13): CodeIgniter\BaseModel->findAll()
+#6 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\TaskController->index()
+#7 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+#8 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /Users/andorazafy/Documents/MVC/PTM-app/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('/Users/andoraza...')
+#13 {main}
+CRITICAL - 2024-09-30 09:22:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: GET, Route: /]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tasks`', [], false)
+ 3 SYSTEMPATH/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/TaskController.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')

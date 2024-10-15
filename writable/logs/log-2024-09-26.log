@@ -1,0 +1,340 @@
+CRITICAL - 2024-09-26 16:12:12 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:12:14 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:14:03 --> ArgumentCountError: Too few arguments to function App\Controllers\TaskController::index(), 0 passed in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH/Controllers/TaskController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:14:04 --> ArgumentCountError: Too few arguments to function App\Controllers\TaskController::index(), 0 passed in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH/Controllers/TaskController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:14:25 --> ArgumentCountError: Too few arguments to function App\Controllers\TaskController::index(), 0 passed in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH/Controllers/TaskController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:14:25 --> ArgumentCountError: Too few arguments to function App\Controllers\TaskController::index(), 0 passed in /Users/andorazafy/Documents/MVC/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: /]
+in APPPATH/Controllers/TaskController.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:09 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:09 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:30 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:30 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:31 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:15:31 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 45.
+ 1 APPPATH/Views/dashboard/dashboard.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 45)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:09 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:10 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:15 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:16 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:17 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:17 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:17 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:18 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:18 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:18 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:18 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')
+CRITICAL - 2024-09-26 16:44:34 --> ErrorException: Undefined variable $task
+[Method: GET, Route: /]
+in APPPATH/Views/dashboard/dashboard.php on line 46.
+ 1 APPPATH/Views/dashboard/dashboard.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $task', '/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php', 46)
+ 2 SYSTEMPATH/View/View.php(234): include('/Users/andorazafy/Documents/MVC/PTM-app/app/Views/dashboard/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('dashboard/dashboard', [], true)
+ 5 APPPATH/Controllers/TaskController.php(15): view('dashboard/dashboard', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TaskController))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/andorazafy/Documents/MVC/PTM-app/public/index.php')

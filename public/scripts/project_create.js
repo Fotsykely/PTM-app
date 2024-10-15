@@ -1,7 +1,10 @@
+
+
+//add project script
 const addProject = document.getElementById('addProject');
 const addForm = document.getElementById('addForm');
 const backdrop = document.getElementById('backdrop');
-const cancelBtn = document.getElementById('cancelBtn');
+const cancelBtn = document.getElementById('closeCreateModal')
 
 addProject.addEventListener('click', () => {
   addForm.style.display = 'block';
@@ -17,3 +20,6 @@ backdrop.addEventListener('click', () => {
   addForm.style.display = 'none';
   backdrop.style.display = 'none';
 });
+
+
+
