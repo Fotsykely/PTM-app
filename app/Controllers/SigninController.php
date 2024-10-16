@@ -16,7 +16,6 @@ class SigninController extends Controller
     {
         helper(['form']);
         $rules = [
-            'username'          => 'required|min_length[2]|max_length[50]',
             'email'         => 'required|min_length[4]|max_length[100]|valid_email|is_unique[users.email]',
             'password'      => 'required|min_length[4]|max_length[50]',
             'confirmpassword'  => 'matches[password]'
@@ -25,7 +24,7 @@ class SigninController extends Controller
         if($this->validate($rules)){
             $userModel = new UserModel();
             $data = [
-                'username'     => $this->request->getVar('username'),
+                'username' => $this->request->getVar('username'),
                 'email'    => $this->request->getVar('email'),
                 'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT)
             ];
