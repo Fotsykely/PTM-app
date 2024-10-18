@@ -22,7 +22,7 @@
                 <?php endif;?>
                 <form action="<?php echo base_url(); ?>/LoginController/login" method="post">
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="Email or Phone" class="form-control">
+                        <input type="email" name="email" placeholder="Email" class="form-control">
                     </div>
                     <div class="form-group">
                         <input type="password" name="password" placeholder="Password" class="form-control">
