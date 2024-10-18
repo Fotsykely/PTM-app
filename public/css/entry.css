@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../images/task-management.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: rgba(55, 57, 74, 0.488);
+    border-radius: 16px;
+    box-shadow: 10px 4px 30px rgba(3, 3, 3, 0.438);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    width: 300px;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+}
+
+.card-body {
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 95%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    background: rgba(12, 12, 12, 0.325);
+    color: #e3e3e3;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0.5rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-social.google {
+    background-color: #4285F4;
+}
+
+.btn-social.facebook {
+    background-color: #3b5998;
+}
+
+.social-login {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+a {
+    color: #edecf0;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-other{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert{
+    margin-bottom: 10px;
+    color: rgb(164, 0, 0);
+    text-decoration: underline;
+}
