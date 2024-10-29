@@ -98,3 +98,14 @@ th {
     background-color: rgb(200, 54, 54);  
     transition: 0.5s;
 }
+
+.open-btn
+{
+    background-color: #1545f0;
+    margin-right: 14%;
+}
+
+.open-btn:hover
+{
+    background-color: #456bf4;
+}

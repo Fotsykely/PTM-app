@@ -61,6 +61,7 @@
                 <td><?= esc($task['deadline']) ?></td>
                 <td>
                     <!-- <a href="<?= site_url('Project/edit/'.$task['id']) ?>" id="editBtn">Edit</a> -->
+                    <a href="<?= site_url() ?>" class="open-btn" >Open Project</a>
                     <button onclick="openEditModal(<?= $task['id'] ?>, '<?= esc($task['task_name']) ?>', '<?= esc($task['description']) ?>', '<?= esc($task['deadline']) ?>')">Edit</button>
                     <a href="<?= site_url('Project/delete/'.$task['id']) ?>" class="del-btn" onclick="return confirm('Are you sure?')">Delete</a>
                 </td>

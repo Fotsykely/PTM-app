@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 16, 2024 at 08:48 AM
+-- Generation Time: Oct 21, 2024 at 01:48 PM
 -- Server version: 8.0.37-0ubuntu0.22.04.3
 -- PHP Version: 8.3.10
 
@@ -32,7 +32,7 @@ CREATE TABLE `project` (
   `project_name` varchar(25) NOT NULL,
   `description` varchar(255) NOT NULL,
   `deadline` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `project`
@@ -53,7 +53,7 @@ CREATE TABLE `tasks` (
   `task_name` varchar(20) NOT NULL,
   `description` varchar(255) NOT NULL,
   `deadline` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `tasks`
@@ -70,17 +70,21 @@ INSERT INTO `tasks` (`id`, `task_name`, `description`, `deadline`) VALUES
 
 CREATE TABLE `users` (
   `id` int NOT NULL,
-  `username` varchar(15) NOT NULL,
-  `password` varchar(20) NOT NULL,
+  `username` varchar(70) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `email` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`) VALUES
-(1, 'bob', '', 'a.bob@gmail.com');
+(1, 'bob', '$2y$10$BCjLS51QqtD72qbDNwZotetOmXRwrMvL1KDS6OH1ySpHIqbE32D6C', 'a.bob@gmail.com'),
+(2, 'test', '$2y$10$cGgBmRhC.PnYOC6DAqxFMuI9n8Y57DKKqPdVoDSm9NXraHG6wM09O', 'a.test@gmail.com'),
+(3, 'jeez', '$2y$10$mRKxbNY73zSbJexXNJ9kzuNkU564xf6xbrkbfdVIcudHuZQxd9ft6', 'a.go@gmail.com'),
+(4, 'Ando', '$2y$10$/tyE0IS7DAGQh/SV/F0X/.W3iJYAKVzyMjaELU1Q.ateWl6jZvEO6', 'a.ando@gmail.com'),
+(5, 'admin', '$2y$10$XrFnOShnlb2Uwh9E4wpIROKt55suAdyrDPMkhLRcPhY/G50nx0LaG', 'q@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -124,7 +128,7 @@ ALTER TABLE `tasks`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
