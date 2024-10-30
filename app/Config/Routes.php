@@ -18,7 +18,7 @@ $routes->post('/Project/updatep/(:num)', 'ProjectController::updateProject/$1');
 $routes->get('/Project/delete/(:num)', 'ProjectController::deleteProject/$1');
 
 $routes->get('/Project/openP/(:num)', 'TaskController::index/$1');
-$routes->post('/Task/save/(:num)', 'TaskController::saveTask/$1');
+$routes->post('/Task/save', 'TaskController::saveTask');
 $routes->get('/Task/edit/(:num)', 'TaskController::editTask/$1');
 $routes->post('/Task/update/(:num)', 'TaskController::updateTask/$1');
 $routes->get('/Task/delete/(:num)', 'TaskController::deleteTask/$1');

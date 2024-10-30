@@ -16,20 +16,20 @@ class TaskController extends Controller
         $taskModel = new TaskModel();
         $pModel = new ProjectModel();
         $usrModel = new UserModel();
+
         $data1['Task'] = $taskModel->where('project_id',$id)->findAll();
-        $data2['Prj'] = $pModel->find($id);
-        $data3['usr'] = $session->get('username');
-        $data = array_merge($data1, $data2, $data3);
+        $data2['usr'] = $session->get('username');
+        $data = array_merge($data1, $data2);
         
         return view('dashboard/task', $data);
     }
 
-    public function saveTask($id)
+    public function saveTask()
     {
         $taskModel = new TaskModel();
         $session = session();
         $taskModel->save([
-            'project_id' => $id,
+            'project_id' => $session->get('id'),
             'name' => $this->request->getPost('name'),
             'description' => $this->request->getPost('description'),
             'status' => $this->request->getPost('status'),
@@ -50,7 +50,7 @@ class TaskController extends Controller
     {
         $taskModel = new TaskModel();
         $taskModel->update($id, [
-            'name' => $this->request->getPost('description'),
+            'name' => $this->request->getPost('name'),
             'description' => $this->request->getPost('description'),
             'status' => $this->request->getPost('status'),
         ]);

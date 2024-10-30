@@ -33,7 +33,7 @@
         <div id="addForm" class="containerForm">
             <span class="close" id="closeCreateModal">&times;</span>
             <h2>Create a Task</h2>  
-            <form action="<?= site_url('Task/save/'.$Prj['id']) ?>" method="post">
+            <form action="<?= site_url('Task/save') ?>" method="post">
                 <div class="form-group">
                     <label for="name">Task Name:</label>
                     <input type="text" name="name" id="name" required>
