@@ -3,28 +3,34 @@
 namespace App\Controllers;
 
 use App\Models\TaskModel;
+use App\Models\ProjectModel;
 use CodeIgniter\Controller;
 
 class TaskController extends Controller
 {
-    public function index()
+    public function index($id)
     {
         $taskModel = new TaskModel();
-        $data['tasks'] = $taskModel->findAll();
-
-        return view('dashboard/dashboard', $data); // Load the dashboard view
+        $pModel = new ProjectModel();
+        $data1['Task'] = $taskModel->where('project_id',$id)->findAll();
+        $data2['Prj'] = $pModel->find($id);
+        $data = array_merge($data1, $data2);
+        
+        return view('dashboard/task', $data);
     }
 
-    public function saveTask()
+    public function saveTask($id)
     {
         $taskModel = new TaskModel();
+        $session = session();
         $taskModel->save([
-            'task_name' => $this->request->getPost('task_name'),
+            'project_id' => $id,
+            'name' => $this->request->getPost('name'),
             'description' => $this->request->getPost('description'),
-            'deadline' => $this->request->getPost('deadline'),
+            'status' => $this->request->getPost('status'),
         ]);
 
-        return redirect()->to('/'); // Redirect to the task list (dashboard)
+        return redirect()->to('/Project/openP/'.$session->get('id'));
     }
 
     public function editTask($id)
@@ -39,12 +45,12 @@ class TaskController extends Controller
     {
         $taskModel = new TaskModel();
         $taskModel->update($id, [
-            'task_name' => $this->request->getPost('task_name'),
+            'name' => $this->request->getPost('description'),
             'description' => $this->request->getPost('description'),
-            'deadline' => $this->request->getPost('deadline'),
+            'status' => $this->request->getPost('status'),
         ]);
 
-        return redirect()->to('/');
+        return redirect()->to('/Project/openP/'.$id);
     }
 
     public function deleteTask($id)
@@ -52,6 +58,6 @@ class TaskController extends Controller
         $taskModel = new TaskModel();
         $taskModel->delete($id);
 
-        return redirect()->to('/');
+        return redirect()->to('/Project/openP/'.$id);
     }
 }

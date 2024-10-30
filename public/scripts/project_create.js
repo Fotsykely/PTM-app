@@ -1,5 +1,3 @@
-
-
 //add project script
 const addProject = document.getElementById('addProject');
 const addForm = document.getElementById('addForm');

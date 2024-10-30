@@ -1,7 +1,9 @@
 /* style.css */
 
 body {
+    display: flex;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,8 +11,11 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: 20px auto;
     padding: 20px;
+    margin-left: 250px;
+    padding: 30px;        
+    width: 100%;
+    box-sizing: border-box;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -108,4 +113,54 @@ th {
 .open-btn:hover
 {
     background-color: #456bf4;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sidebar .username {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
 }
