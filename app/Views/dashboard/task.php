@@ -6,21 +6,82 @@
     <title>Your Task</title>
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
     <link rel="stylesheet" href="<?= base_url('css/form.css') ?>">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Task</title>
+    <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/form.css') ?>">
+    
     <style>
-        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f4f4f4;
+            height: 100vh;
+        }
+
+        .sidebar h2, .sidebar h4 {
+            text-align: center;
+        }
+
+        .sidebar table {
+            margin: 20px auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sidebar a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .logout {
+            text-align: center;
+            margin-top: auto;
+            padding: 10px;
+        }
+
+        .logout a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="sidebar">
-        <h2>Dashboard</h2>
-        <h4><?= esc($usr) ?></h4>
+        <div>
+            <h2>Dashboard</h2>
+            <h4>Hello <?= esc($usr) ?>!</h4>
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                </tr>
+                <?php foreach ($Project as $p): ?>
+                <tr>
+                    <td><a href="<?= site_url('Project/openP/'.$p['id']) ?>"><?= esc($p['name']) ?></a></td>
+                </tr>
+                <?php endforeach; ?>
+            </table>
+        </div>
+        
+        <div class="logout">
+            <a href="<?= site_url('logout') ?>">Logout</a>
+        </div>
     </div>
 
     <div class="container" style="min-height: 60vh;">
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
+        <form action="<?= site_url('/dashboard/task/'.$prj['id']) ?>" method="get">
+            <div class="search-bar">
+                <input type="text" name="search" placeholder="Search..." value="<?= esc($search ?? '') ?>">
+                <button type="submit" >Search</button>
+            </div>
+        </form>
 
         <h1>User Tasks</h1>
 
@@ -33,7 +94,7 @@
         <div id="addForm" class="containerForm">
             <span class="close" id="closeCreateModal">&times;</span>
             <h2>Create a Task</h2>  
-            <form action="<?= site_url('Task/save') ?>" method="post">
+            <form action="<?= site_url('Task/save/'.$prj['id']) ?>" method="post">
                 <div class="form-group">
                     <label for="name">Task Name:</label>
                     <input type="text" name="name" id="name" required>

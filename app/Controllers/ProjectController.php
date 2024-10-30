@@ -12,8 +12,13 @@ class ProjectController extends Controller
     {
         $session = session();
         $userId = $session->get('id');
+        $search = $this->request->getGet('search');
         $pModel = new ProjectModel();
         $userModel = new UserModel();
+        if($search) {
+            $pModel = $pModel->like('name',$search)
+                             ->orLike('description',$search);   
+        }
         $data1['Project'] = $pModel->where('user_id',$userId)->findAll();
         $data2['usr'] = $session->get('username');
         $data = array_merge($data1, $data2);

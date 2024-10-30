@@ -13,14 +13,16 @@
 <body>
     <div class="sidebar">
         <h2>Dashboard</h2>
-        <h4><?= esc($usr) ?></h4>
+        <h4>Hello <?= esc($usr) ?> !</h4>
     </div>
 
     <div class="container" style="min-height: 60vh;">
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
+        <form action="<?= site_url('dashboard/dashboard') ?>" method="get">
+            <div class="search-bar">
+                <input type="text" name="search" placeholder="Search..." value="<?= esc($search ?? '') ?>">
+                <button type="submit" >Search</button>
+            </div>
+        </form>
 
         <h1>User Dashboard</h1>
 

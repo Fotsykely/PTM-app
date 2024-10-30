@@ -16,26 +16,33 @@ class TaskController extends Controller
         $taskModel = new TaskModel();
         $pModel = new ProjectModel();
         $usrModel = new UserModel();
-
+        $search = $this->request->getGet('search');
+        if($search) {
+            $taskModel = $taskModel->like('name',$search)
+                             ->orLike('status',$search)
+                             ->orLike('description',$search);   
+        }
         $data1['Task'] = $taskModel->where('project_id',$id)->findAll();
         $data2['usr'] = $session->get('username');
-        $data = array_merge($data1, $data2);
+        $data3['Project'] = $pModel->where('user_id',$session->get('id'))->findAll();
+        $data4['prj'] = $pModel->find($id);
+        $data = array_merge($data1, $data2, $data3, $data4);
         
         return view('dashboard/task', $data);
     }
 
-    public function saveTask()
+    public function saveTask($id)
     {
         $taskModel = new TaskModel();
         $session = session();
         $taskModel->save([
-            'project_id' => $session->get('id'),
+            'project_id' => $id,
             'name' => $this->request->getPost('name'),
             'description' => $this->request->getPost('description'),
             'status' => $this->request->getPost('status'),
         ]);
 
-        return redirect()->to('/Project/openP/'.$session->get('id'));
+        return redirect()->to('/Project/openP/'.$id);
     }
 
     public function editTask($id)
