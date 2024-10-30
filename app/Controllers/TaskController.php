@@ -4,17 +4,22 @@ namespace App\Controllers;
 
 use App\Models\TaskModel;
 use App\Models\ProjectModel;
+use App\Models\UserModel;
+
 use CodeIgniter\Controller;
 
 class TaskController extends Controller
 {
     public function index($id)
     {
+        $session = session();
         $taskModel = new TaskModel();
         $pModel = new ProjectModel();
+        $usrModel = new UserModel();
         $data1['Task'] = $taskModel->where('project_id',$id)->findAll();
         $data2['Prj'] = $pModel->find($id);
-        $data = array_merge($data1, $data2);
+        $data3['usr'] = $session->get('username');
+        $data = array_merge($data1, $data2, $data3);
         
         return view('dashboard/task', $data);
     }

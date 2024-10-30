@@ -14,7 +14,9 @@ class ProjectController extends Controller
         $userId = $session->get('id');
         $pModel = new ProjectModel();
         $userModel = new UserModel();
-        $data['Project'] = $pModel->where('user_id',$userId)->findAll();
+        $data1['Project'] = $pModel->where('user_id',$userId)->findAll();
+        $data2['usr'] = $session->get('username');
+        $data = array_merge($data1, $data2);
 
         return view('dashboard/dashboard', $data);
     }

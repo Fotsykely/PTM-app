@@ -13,7 +13,7 @@
 <body>
     <div class="sidebar">
         <h2>Dashboard</h2>
-        
+        <h4><?= esc($usr) ?></h4>
     </div>
 
     <div class="container" style="min-height: 60vh;">

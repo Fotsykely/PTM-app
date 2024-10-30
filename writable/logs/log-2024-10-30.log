@@ -1,0 +1,263 @@
+CRITICAL - 2024-10-30 05:25:54 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Project/openP/1]
+in APPPATH/Controllers/TaskController.php on line 16.
+ 1 APPPATH/Controllers/TaskController.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:26:00 --> ErrorException: Undefined variable $session
+[Method: GET, Route: Project/openP/4]
+in APPPATH/Controllers/TaskController.php on line 16.
+ 1 APPPATH/Controllers/TaskController.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:26:40 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/1]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:27:19 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/1]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:28:14 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:29:44 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(19): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+ERROR - 2024-10-30 05:34:12 --> mysqli_sql_exception: Unknown column 'project_id' in 'where clause' in /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/BaseModel.php(610): CodeIgniter\Model->doFind()
+#6 /home/yuuta/Dev/PTM-app/app/Controllers/TaskController.php(20): CodeIgniter\BaseModel->find()
+#7 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(933): App\Controllers\TaskController->index()
+#8 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/yuuta/Dev/PTM-app/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/yuuta/Dev/PTM-app/vendor/codeigniter4/framework/system/rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2024-10-30 05:34:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'project_id' in 'where clause'
+[Method: GET, Route: Project/openP/2]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind()
+ 4 APPPATH/Controllers/TaskController.php(20): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:34:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'project_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind()
+ 6 APPPATH/Controllers/TaskController.php(20): CodeIgniter\BaseModel->find()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:34:12 --> [Caused by] mysqli_sql_exception: Unknown column 'project_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(610): CodeIgniter\Model->doFind()
+ 7 APPPATH/Controllers/TaskController.php(20): CodeIgniter\BaseModel->find()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:34:32 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:35:03 --> ErrorException: Undefined variable $usr
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:35:41 --> ErrorException: Undefined variable $usr
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:36:19 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:38:15 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+CRITICAL - 2024-10-30 05:38:19 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(23): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+INFO - 2024-10-30 05:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-30 05:43:34 --> ErrorException: Undefined variable $username
+[Method: GET, Route: Project/openP/2]
+in APPPATH/Views/dashboard/task.php on line 16.
+ 1 APPPATH/Views/dashboard/task.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/yuuta/Dev/PTM-app/app/Views/dashboard/task.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/TaskController.php(24): view()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\TaskController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/yuuta/Dev/PTM-app/public/index.php')
+INFO - 2024-10-30 05:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-30 05:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
